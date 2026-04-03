@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color: #1f1a17;
+  background: #fff;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-white text-stoneInk font-sans;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #c8baaa transparent;
+}
+
+.container-shell {
+  @apply mx-auto w-full max-w-[1440px] px-4 sm:px-6 lg:px-8;
+}
+
+.editorial-title {
+  @apply text-3xl font-semibold tracking-[-0.03em] sm:text-4xl lg:text-5xl;
+}
+
+.section-title {
+  @apply text-2xl font-semibold tracking-[-0.03em] sm:text-3xl;
+}
+
+.muted-copy {
+  @apply text-sm text-warmGray sm:text-base;
+}
+
+.image-overlay {
+  background: linear-gradient(to top, rgba(21, 18, 16, 0.72), rgba(21, 18, 16, 0.18));
+}
+
+.glass-panel {
+  @apply border border-white/30 bg-white/10 backdrop-blur-xl;
+}
