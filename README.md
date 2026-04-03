@@ -1,4 +1,4 @@
-# Fashion Luxe Store
+# Herbs Store
 
 Moderne, luxe en responsive fashion e-commerce homepage gebouwd met React, TypeScript, Tailwind CSS, React Router en Framer Motion.
 
